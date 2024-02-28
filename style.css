@@ -1,0 +1,66 @@
+body {
+  background: url(Image/background.jpg) no-repeat center center;
+  background-size: cover;
+}
+
+.container {
+  width: 800px;
+  height: 400px;
+  background-color: #333;
+  margin: auto;
+  margin-top: 100px;
+  border-radius: 1cm;
+}
+.fcontainer {
+  background-color: aqua;
+  width: 800px;
+  height: 50px;
+  border-radius: 1cm 1cm 0cm 0cm;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.fcontainer .header {
+  font-size: 32px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.image img {
+  width: 250px;
+  border: 5px solid black;
+  border-radius: 5px;
+  margin-left: 35px;
+  margin-top: 10px;
+}
+.main {
+  display: flex;
+  margin-top: 10px;
+  margin-left: 50px;
+  flex-direction: column;
+  width: 400px;
+  height: 200px;
+}
+.main .biodata {
+  font-size: 18px;
+  color: whitesmoke;
+  font-family: Poppins, sans-serif;
+  margin-top: 4px;
+}
+.isi {
+  display: flex;
+}
+.footer {
+  width: 800px;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer .bi {
+  font-size: 35px;
+  color: white;
+  margin-left: 20px;
+}
+.link {
+  text-decoration: none;
+}
